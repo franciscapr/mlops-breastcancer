@@ -13,7 +13,9 @@ Cada fila representa un tumor y las columnas incluyen:
 El objetivo del proyecto es entrenar un modelo de Machine Learning que pueda predecir si un tumor es maligno o benigno basado en estas características. Este dataset es ampliamente utilizado para tareas de clasificación binaria y para evaluar técnicas de predicción en entornos de salud.
 
 - [https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data]
-- [/img/output.png]
+- ![Breast Cancer Dataset](https://www.kaggleusercontent.com/.../breast-cancer-wisconsin-data.png)
+- ![Visualización de datos](img/output.png)
+
 
 **Nota: Verifica la versión de tu python con:**
 ```bash
