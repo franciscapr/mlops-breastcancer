@@ -2,7 +2,7 @@
 
 ### Descripción del dataset
 
-El dataset **Breast Cancer Wisconsin** (Diagnostic) proviene del UCI Machine Learning Repository y contiene información de 569 muestras de tumores de mama, con 30 característicasnuméricas extraídas de imágenes digitalizadas de células tumorales.
+El dataset **Breast Cancer Wisconsin** (Diagnostic) proviene del UCI Machine Learning Repository y contiene información de 569 muestras de tumores de mama, con 30 características numéricas extraídas de imágenes digitalizadas de células tumorales.
 Cada fila representa un tumor y las columnas incluyen:
 - ID number: Identificador único de la muestra.
 - diagnosis: Etiqueta de diagnóstico (M = maligno, B = benigno).
@@ -13,6 +13,7 @@ Cada fila representa un tumor y las columnas incluyen:
 El objetivo del proyecto es entrenar un modelo de Machine Learning que pueda predecir si un tumor es maligno o benigno basado en estas características. Este dataset es ampliamente utilizado para tareas de clasificación binaria y para evaluar técnicas de predicción en entornos de salud.
 
 - [https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data]
+- [/img/output.png]
 
 **Nota: Verifica la versión de tu python con:**
 ```bash
@@ -84,6 +85,7 @@ python --version
     
     - Ejecutar Contenedor:
     docker run --rm -p 8000:8000 -v $(pwd)/models:/app/models:ro mlops-breastcancer:local
+
 
 
 
