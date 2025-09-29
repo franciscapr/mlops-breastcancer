@@ -23,14 +23,16 @@ El objetivo del proyecto es entrenar un modelo de Machine Learning que pueda pre
 
 ---
 
-**Nota: Verifica la versión de tu python con:**
-```bash
-python --version
+- **Nota: Antes de ejecutar verifica la versión de tu python:**
+    python --version
 
-## Requisitos
+---
+
+# Requisitos
 - Python 3.10
 - Docker (opcional si quieres correr en contenedor)
 
+```bash
 ## Instalación local
 
 1. Instalación Entorno Virtual: 
