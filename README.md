@@ -16,6 +16,13 @@ El objetivo del proyecto es entrenar un modelo de Machine Learning que pueda pre
 
 - ![Visualización de datos](img/output.png)
 
+- **Nota**: Cada fila de valores que se envian al endpoint representa "un paciente" con sus medidas específicas. El modelo utiliza esos valores para calcular:
+    - **prediction**: 0 = benigno, 1 = maligno.
+    - **probability**: La probabilidad asociada a cada clase.
+      cambias los valores como por ejemplo (radius_mean, texture_mean, etc) para otra persona, el ouput cambiará acorde a esas nuevas características a la predicción sera distinta. Cada JSON con las medidas especificas de cada paciente produce una predicción personalizada para esos datos de dicha paciente.    
+
+---
+
 **Nota: Verifica la versión de tu python con:**
 ```bash
 python --version
@@ -86,8 +93,6 @@ python --version
     
     - Ejecutar Contenedor:
     docker run --rm -p 8000:8000 -v $(pwd)/models:/app/models:ro mlops-breastcancer:local
-
-
 
 
 
