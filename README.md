@@ -24,7 +24,7 @@ El objetivo del proyecto es entrenar un modelo de Machine Learning que pueda pre
 ---
 
 - **Nota: Antes de ejecutar verifica la versión de tu python:**
-    python --version
+    - python --version
 
 ---
 
